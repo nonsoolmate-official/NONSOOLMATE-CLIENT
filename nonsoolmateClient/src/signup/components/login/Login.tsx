@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { Title } from "../../styles/title";
-import NaverLoginButton from "./NaverLoginButton";
 import SignupButton from "./SignupButton";
 import SignupText from "./SignupText";
 import { columnFlex, commonFlex } from "style/commonStyle";
+import Naver from "loginTest";
 
 export default function Login() {
   return (
     <Container>
       <Text>로그인</Text>
-      <NaverLoginButton />
+      <Naver />
       <SignupContainer>
         <SignupText />
         <SignupButton />
